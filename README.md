@@ -9,15 +9,18 @@
 | git commit -m "Your Comment" x.txt a.html | For x.txt and a.html file adding |
 | git commit -am "Your Comment" | For All File Commited |
 | git diff | What changes |
-| git log | For all working history first day to last day  |
+| git log | For all working history from first day to last day  |
+| git log x.txt | for x.txt working history |
 | git show 2b0810c2d009af10f37eac32 | For specific work i am worked (2b0810c2d009af10f37eac32 every commit create ad new ID) |
 | <kbd>Previous Committee Returns, Resets, amend</kbd>|
 | git checkout 2b0810c2d009af10f37eac32 | Return to the previous task (2b0810c2d009af10f37eac32 work ID) |
 | git checkout master | For again to move your last work |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| git checkout 2b0810c x.txt |  Return to the previous task x.tx (2b0810c work ID) |
+| git checkout master -f | For only one file previous |
+|<kbd>Worng Commit</kbd>|
+| git commit -m "Accidental Commit" x.txt | The commit by mistake |
+| git reset -soft 2b0810c | Soft Reset (The old commit will go away but the next commit will remain ) |
+| git reset -hard 2b0810c | Hard Reset (The old commit will go away) |
 |  |  |
 |  |  |
 |  |  |
