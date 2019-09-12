@@ -2,6 +2,7 @@
 
 | Git Command | Description |
 |-------------|-------------|
+| git clone id | All poroject Download |
 | git init | First Time Only  |
 | git add . | Your All Files Added |
 | git add abc.txt | abc.txt file Added |
