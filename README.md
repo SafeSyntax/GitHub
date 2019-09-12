@@ -21,7 +21,8 @@
 | git commit -m "Accidental Commit" x.txt | The commit by mistake |
 | git reset -soft 2b0810c | Soft Reset (The old commit will go away but the next commit will remain ) |
 | git reset -hard 2b0810c | Hard Reset (The old commit will go away) |
-|  |  |
+|<kbd>That's what we did</kbd>|
+| git reflog | That's what we did |
 |  |  |
 |  |  |
 |  |  |
