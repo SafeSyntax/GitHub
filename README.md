@@ -11,8 +11,7 @@
 | git diff | What changes |
 | git log | For all working history first day to last day  |
 | git show 2b0810c2d009af10f37eac32 | For specific work i am worked (2b0810c2d009af10f37eac32 every commit create ad new ID) |
-
-|  |  |
+|    |
 |  |  |
 |  |  |
 |  |  |
