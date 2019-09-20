@@ -26,9 +26,7 @@
 | git reflog | That's what we did |
 |  |  |
 |  |  |
-| git push origin master --forc 
-or (short of force -f) 
-git push origin master -f | If don't work git push -u origin master |
+| git push origin master --forc or (short of force -f) git push origin master -f | If don't work git push -u origin master |
 |  |  |
 |  |  |
 |  |  |
