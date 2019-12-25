@@ -40,8 +40,8 @@ git push -u origin master
 | git reset -hard 2b0810c | Hard Reset (The old commit will go away) |
 |<kbd>That's what we did</kbd>|
 | git reflog | That's what we did |
-|  |  |
-|  |  |
+| git rm file1.txt | delete a file from a Git repository (first command) |
+| git commit -m "remove file1.txt"  | (Second Command (finaly removed file  |
 | git push origin master --forc or (short of force -f) git push origin master -f | If don't work git push -u origin master |
 |  |  |
 |  |  |
